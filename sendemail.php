@@ -5,7 +5,7 @@
 		'message'=>'Thank you for contact us. As early as possible  we will contact you '
 	);
 
-    $name = @trim(stripslashes($_POST['name'])); 
+    $name = @trim(stripslashes($_POST['namaku'])); 
     $email = @trim(stripslashes($_POST['email'])); 
     $subject = @trim(stripslashes($_POST['subject'])); 
     $message = @trim(stripslashes($_POST['message'])); 
